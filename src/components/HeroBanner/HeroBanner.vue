@@ -10,16 +10,16 @@
           </div>
 
           <div class="cta">
-            <button class="learn-m">LEARN MORE</button>
-            <button class="signup">SIGNUP FOR EXCLUSIVE OFFERS AND DISCOUNTS</button>
+            <a href="#" class="learn-m">LEARN MORE</a>
+            <a href="#" class="signup">SIGNUP FOR EXCLUSIVE OFFERS AND DISCOUNTS</a>
           </div>
       </div>
       <div class="watch">
-          <span>Top & Premium Quality Products</span>
+          <span class="quality">Top & Premium Quality Products</span>
           <img src="../../assets/images/luxwatch.jpg" alt="" class="lux-watch">
       </div>
       <div class="navigatio">
-          <NavigationBar />
+          <!-- <NavigationBar /> -->
           <!-- <img src="../../assets/images/girl.jpg" alt="" class="girl w-52"> -->
       </div>
 
@@ -36,12 +36,12 @@
 </template>
 
 <script>
-import NavigationBar from '../NavigationBar/NavigationBar.vue'
+// import NavigationBar from '../NavigationBar/NavigationBar.vue'
 
 export default {
     name: 'HeroBanner',
     components: {
-        NavigationBar
+        // NavigationBar
     }
 }
 </script>
@@ -59,7 +59,29 @@ export default {
 .lux-watch{
     width: 20rem;
 }
-.cta .learn-m{
-    
+.cta .learn-m, .cta .signup{
+    background: #1c1917;
+    color: #ffff;
+    padding: 13px 23px;
+    font-weight: bold;
+    margin-right: 6px;
+    text-decoration: none;
+}
+
+.cta{
+    display: flex;
+}
+
+.watch{
+    padding-top: 5rem;
+}
+.watch .quality{
+    position: relative;
+    bottom: 28rem;
+    left: 10rem;
+}
+
+.info-cta .info{
+    font-size: 24px;
 }
 </style>
