@@ -1,15 +1,15 @@
 <template>
   <div class="navigation">
-      <nav class="flex justify-between">
+      <nav>
           <div class="brand-logo">
               LOGO
           </div>
-          <ul class="navigation-item flex">
-              <li>About US</li>
-              <li>OUR RECENT WORK</li>
-              <li>VISIT LOCATION</li>
-              <li>VIEW OUR WORK</li>
-              <li>CONTACT</li>
+          <ul class="navigation-item">
+              <li class="pl-5"><a href="#">About US</a></li>
+              <li class="pl-5"><a href="#">OUR RECENT WORK</a></li>
+              <li class="pl-5"><a href="#">VISIT LOCATION</a></li>
+              <li class="pl-5"><a href="#">VIEW OUR WORK</a></li>
+              <li class="pl-5"><a href="#">CONTACT</a></li>
           </ul>
       </nav>
   </div>
@@ -27,5 +27,23 @@ export default {
 
 .navigation{
   font-family: 'Roboto Serif', sans-serif;
+}
+
+.navigation nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding-left: 16px;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+
 }
 </style>

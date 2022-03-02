@@ -10,8 +10,8 @@
           </div>
 
           <div class="cta">
-            <button>LEARN MORE</button>
-            <button>SIGNUP FOR EXCLUSIVE OFFERS AND DISCOUNTS</button>
+            <button class="learn-m">LEARN MORE</button>
+            <button class="signup">SIGNUP FOR EXCLUSIVE OFFERS AND DISCOUNTS</button>
           </div>
       </div>
       <div class="watch">
@@ -20,10 +20,10 @@
       </div>
       <div class="navigatio">
           <NavigationBar />
-          <img src="../../assets/images/girl.jpg" alt="" class="girl">
+          <!-- <img src="../../assets/images/girl.jpg" alt="" class="girl w-52"> -->
       </div>
 
-      <div class="services">
+      <!-- <div class="services">
           <div class="small-list">
             <span>133 WATCHES</span>
             <span>94 SUNGLASSES</span>
@@ -31,7 +31,7 @@
             <span>50 RINGS</span>
           </div>
           <img src="../../assets/images/glass.jpg" alt="" class="glass">
-      </div>
+      </div> -->
   </div>
 </template>
 
@@ -50,5 +50,16 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 .info{
     font-family: 'Open Sans', sans-serif;
+}
+.intro{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.lux-watch{
+    width: 20rem;
+}
+.cta .learn-m{
+    
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container px-24">
+  <div class="container">
     <NavigationBar />
     <HeroBanner />
   </div>
@@ -19,5 +19,7 @@ export default {
 </script>
 
 <style>
-
+.container{
+  margin: 0 60px;
+}
 </style>
