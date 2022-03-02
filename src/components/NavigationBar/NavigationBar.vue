@@ -1,10 +1,10 @@
 <template>
   <div class="navigation">
-      <nav>
+      <nav class="flex justify-between">
           <div class="brand-logo">
               LOGO
           </div>
-          <ul class="navigation-item">
+          <ul class="navigation-item flex">
               <li>About US</li>
               <li>OUR RECENT WORK</li>
               <li>VISIT LOCATION</li>
@@ -23,4 +23,9 @@ export default {
 
 <style>
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@400&display=swap');
+
+.navigation{
+  font-family: 'Roboto Serif', sans-serif;
+}
 </style>

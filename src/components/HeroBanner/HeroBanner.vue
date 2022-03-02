@@ -2,12 +2,17 @@
   <div class="intro">
       <!-- information and call to action -->
       <div class="info-cta">
-          <p>PREMIUM QUALITY PRODUCTS</p>
+          <div class="info text-3xl">
+              <p>PREMIUM QUALITY PRODUCTS</p>
           <p>
               SHOP TOP MENS AND WOMENS FASHION PRODUCTS ONLINE
           </p>
-          <button>LEARN MORE</button>
-          <button>SIGNUP FOR EXCLUSIVE OFFERS AND DISCOUNTS</button>
+          </div>
+
+          <div class="cta">
+            <button>LEARN MORE</button>
+            <button>SIGNUP FOR EXCLUSIVE OFFERS AND DISCOUNTS</button>
+          </div>
       </div>
       <div class="watch">
           <span>Top & Premium Quality Products</span>
@@ -42,5 +47,8 @@ export default {
 </script>
 
 <style>
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+.info{
+    font-family: 'Open Sans', sans-serif;
+}
 </style>
