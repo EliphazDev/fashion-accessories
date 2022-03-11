@@ -5,7 +5,7 @@
               LOGO
           </div>
           <ul class="navigation-item">
-              <li class="pl-5"><a href="#">About US</a></li>
+              <li class="pl-5"><a href="#">ABOUT US</a></li>
               <li class="pl-5"><a href="#">OUR RECENT WORK</a></li>
               <li class="pl-5"><a href="#">VISIT LOCATION</a></li>
               <li class="pl-5"><a href="#">VIEW OUR WORK</a></li>

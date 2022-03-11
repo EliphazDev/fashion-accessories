@@ -19,7 +19,11 @@ export default {
 </script>
 
 <style>
+html, body {
+  box-sizing: border-box;
+}
 .container{
   margin: 0 60px;
 }
+
 </style>
